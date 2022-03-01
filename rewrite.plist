@@ -1,4 +1,7 @@
-hostname = pan.baidu.com,buy.itunes.apple.com,ap?.bilibili.com,api.feidee.net, userapi.feidee.net, tg.feidee.com, community.feidee.com,api.infzm.com,vira.llsapp.com,*.gotokeep.com,*.baidu.com,ios.prod.ftl.netflix.com,ap*.intsig.net,account.wps.cn,mp.weixin.qq.com,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com,app.bilibili.com, grpc.biliapi.net
+hostname = *.*xima*.*,*.xmcdn.com,pan.baidu.com,buy.itunes.apple.com,ap?.bilibili.com,api.feidee.net, userapi.feidee.net, tg.feidee.com, community.feidee.com,api.infzm.com,vira.llsapp.com,*.gotokeep.com,*.baidu.com,ios.prod.ftl.netflix.com,ap*.intsig.net,account.wps.cn,mp.weixin.qq.com,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com,app.bilibili.com, grpc.biliapi.net
+
+#喜马拉雅 *.*xima*.*,*.xmcdn.com
+http-request ^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+)) script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/xmly.js
 
 # 美颜相机一次性解锁内购（by黑黑酱）
 http-response ^https:\/\/api\.meiyan\.com\/iap\/verify\.json requires-body=1,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/myxj.js
