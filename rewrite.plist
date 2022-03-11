@@ -1,4 +1,7 @@
-hostname = *.*xima*.*,*.xmcdn.com,pan.baidu.com,buy.itunes.apple.com,ap?.bilibili.com,api.feidee.net, userapi.feidee.net, tg.feidee.com, community.feidee.com,api.infzm.com,vira.llsapp.com,*.gotokeep.com,*.baidu.com,ios.prod.ftl.netflix.com,ap*.intsig.net,account.wps.cn,mp.weixin.qq.com,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com,app.bilibili.com, grpc.biliapi.net
+hostname = cn.pornhubpremium.com,*.*xima*.*,*.xmcdn.com,pan.baidu.com,buy.itunes.apple.com,ap?.bilibili.com,api.feidee.net, userapi.feidee.net, tg.feidee.com, community.feidee.com,api.infzm.com,vira.llsapp.com,*.gotokeep.com,*.baidu.com,ios.prod.ftl.netflix.com,ap*.intsig.net,account.wps.cn,mp.weixin.qq.com,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com,app.bilibili.com, grpc.biliapi.net
+
+# > PornHub Unlock Premium By Hausd0rff
+http-request ^https?:\/\/cn\.pornhubpremium\.com\/ script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornHubPremiumCrack.js
 
 #喜马拉雅 *.*xima*.*,*.xmcdn.com
 http-request ^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+)) script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/xmly.js
