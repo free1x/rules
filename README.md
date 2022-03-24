@@ -1,1 +1,1 @@
-# QuantumultX 自用规则
+自用规则
