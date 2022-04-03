@@ -3,4 +3,4 @@
 #!system=ios
 
 [General]
-skip-proxy = %APPEND% www.baidu.com,yunbusiness.ccb.com,www.apple.com
+skip-proxy = %APPEND% www.baidu.com,vsc116.hw.gmcc.net,gd.10086.cn,yunbusiness.ccb.com,www.apple.com
