@@ -22,6 +22,7 @@ Picsew = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyRe
 喜马拉雅 = type=http-request,pattern=^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+)),requires-body=0,script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/xmly.js,script-update-interval=0
 P站 = type=http-request,pattern=^https?:\/\/cn\.pornhubpremium\.com\/,requires-body=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornHubPremiumCrack.js,script-update-interval=0
 拦截100解锁超级会员 = type=http-response,pattern=^https?:\/\/tagit\.lanjie100\.com\/cypt\/block100\/get_vip_info$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/Block100SVIPCrack.js,script-update-interval=0
+拦截100解锁会员 = type=http-request,pattern=^ https?:\/\/tagit\.lanjie100\.com\/cypt\/block100\/get_vip_info$,requires-body=0,script-path= https://raw.githubusercontent.com/yqc007/QuantumultX/master/Block100SVIPCrack.js,script-update-interval=0
 
 [MITM]
 hostname = *.lanjie100.com, bookapi.ihuman.com, app.xunjiepdf.com, cn.pornhubpremium.com, ios.prod.ftl.netflix.com, mp.weixin.qq.com, account.wps.cn, *.baidu.com, pan.baidu.com, *.gotokeep.com, vira.llsapp.com, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, buy.itunes.apple.com, *.xmcdn.com, *.*xima*.*
